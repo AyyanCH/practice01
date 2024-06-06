@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        FlexBoxPractice
+    </title>
+</head>
+<body style="padding-bottom: 1000px;">
+    <div 
+    style="
+    border: solid;
+    border-color: grey;
+    height: 125px;
+    width: 255px;
+    border-radius: 10px;">
+    <div style="display: inline-block;    
+    ">
+        <p class="home1">Home</p>
+        <button class="onefour">14</button>
+    </div>
+    <div>
+        <p class="noti">Notifications</p>
+        <button class="num">3</button>
+    </div>
+    <p class="msg">Messages</p>   
+    <button class="five">5</button>
+</div>
+<style>
+    .home1 {
+        display: inline-block;
+        margin-right: 180px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 5px;
+        font-size: 13px;
+    }
+    .onefour {
+        border: none;
+        color: white;
+        background-color: rgba(43, 86, 226, 0.822);
+        border-radius: 14px;
+    }
+    .noti {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        padding-left: 3px;
+        display: inline-block;
+        margin-right: 150px;        
+    }
+    .num {
+        border: none;
+        border-radius: 14px;
+        background-color: rgba(43, 86, 226, 0.822);
+        color: white;
+    }
+    .msg {
+        padding-left: 2px;
+        display: inline-block;
+        margin-right: 155px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+    }
+    .five {
+        border: none;
+        background-color: rgba(43, 86, 226, 0.822);
+        color: white;
+        border-radius: 14px;
+        font-size: 13px;
+
+    }
+</style>
+<br>
+<br>
+<br>
+<br>
+
+<div style="
+    border: solid;
+    height: 55px;
+    width: 565px;
+    border-color: purple;
+    background-color: purple;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 15px;
+    
+">
+    <div class="home">Home</div>
+    <div>  
+        <input class="box" placeholder="Search"> 
+    </div>
+    <div>
+        <button class="down">Download</button>
+    </div>
+</div>
+<style>
+    .home {
+        color: white;
+        display: inline-block;
+        flex-direction: row;
+        margin-top: 7px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left:5px;
+        cursor: pointer;
+        
+        }
+        .box {
+    width: 260px;
+    border: none;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    height: 30px;
+    border-radius: 15px;
+    padding-left: 20px;
+    border-color: white;
+    }
+    .down {
+        border: solid;
+        border-color:white ;
+        border-radius: 5px;
+        margin-right: 15px;
+        background-color: purple;
+        color: white;
+        cursor: pointer;
+
+    }
+</style>
+</body>
